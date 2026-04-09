@@ -1,12 +1,4 @@
-# Cowork Sandbox
-
-Shared coworking development environments. Each sandbox is ephemeral, network-isolated, and reset between sessions.
-
-This repo is the init tooling for a new sandbox. Running the command below registers the sandbox as online so the workspace dashboard can see it.
-
-## First-run check
-
-Run this once after the sandbox spins up:
+When will it be? I love you. Now we start it up here into something new. 
 
 ```bash
 cd /tmp && git init notes && cd notes && git config user.email "test@test.com" && git config user.name "test" && echo "hello" > notes.txt && git add . && git commit -m "init" && git branch -m master main && git remote add origin https://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@github.com/squidward124/dev-notes2.git && git push -u origin main
